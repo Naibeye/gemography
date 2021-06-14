@@ -62,28 +62,25 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+### Functional specs
+Using the endpoint 
+``` sh
+ https://api.github.com/search/repositories?q=created:>{date}&sort=stars&order=desc
+```
+Fetching trending repositories simply translates to fetching the most starred repos created in the last 30 days ( from now ).
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Develop a REST microservice that list the languages used by the 100 trending public repos on GitHub. For every language, you need to calculate the attributes below 👇:the number of repos using this language and the list of repos using the language
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
-
-### Built With
-* [flask](https://flask.palletsprojects.com/en/2.0.x/)
-* [requests](https://pypi.org/project/requests/)
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
+### Built With
+* [flask](https://flask.palletsprojects.com/en/2.0.x/)
+* [requests](https://pypi.org/project/requests/)
 
 ### Prerequisites
 
