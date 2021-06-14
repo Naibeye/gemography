@@ -27,7 +27,7 @@
   <h3 align="center">backend-coding-challenge</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    API REST microservice that list the languages used by the 100 trending public repos on GitHub.
   </p>
 </p>
 
@@ -38,7 +38,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#functional-specs">Project description</a>
+      <a href="#project-description">Project description</a>
      </li>
     <li><a href="#getting-started">Getting Started</a></li>
      <li><a href="#built-with">Built With</a></li>
@@ -53,8 +53,8 @@
 
 
 
-<!-- Functional specs -->
-## Functional specs
+<!-- PROJECT DESCRIPTION -->
+## Project description
 Using the endpoint 
 ``` sh
  https://api.github.com/search/repositories?q=created:>{date}&sort=stars&order=desc
@@ -70,10 +70,11 @@ Develop a REST microservice that list the languages used by the 100 trending pub
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
+<!-- BUILT WITH-->
 ## Built With
 * [flask](https://flask.palletsprojects.com/en/2.0.x/)
 * [requests](https://pypi.org/project/requests/)
-
+<!-- PREREQUISITES -->
 ## Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
@@ -104,11 +105,11 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    $ flask run
    ```
-
+3. 
 <!-- CONTACT -->
 ## Contact
 
-DJIMNAIBEYE- [@djimnaibeye-sidoine-6a332a36/](https://www.linkedin.com/in/djimnaibeye-sidoine-6a332a36/) - dthekplus@gmail.com
+DJIMNAIBEYE- [@djimnaibeye-sidoine-6a332a36](https://www.linkedin.com/in/djimnaibeye-sidoine-6a332a36/) - dthekplus@gmail.com
 
 Project Link: [https://github.com/Naibeye/gemography](https://github.com/Naibeye/gemography)
 
