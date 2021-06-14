@@ -15,10 +15,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -41,28 +37,23 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
+      <a href="#functional-specs">Project description</a>
+     </li>
+    <li><a href="#getting-started">Getting Started</a></li>
+     <li><a href="#built-with">Built With</a></li>
     <li>
       <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
     </li>
+    <li><a href="#prerequisites">Prerequisites</a></li>
+    <li><a href="#installation">Installation</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
 
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-### Functional specs
+<!-- Functional specs -->
+## Functional specs
 Using the endpoint 
 ``` sh
  https://api.github.com/search/repositories?q=created:>{date}&sort=stars&order=desc
@@ -78,11 +69,11 @@ Develop a REST microservice that list the languages used by the 100 trending pub
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
-### Built With
+## Built With
 * [flask](https://flask.palletsprojects.com/en/2.0.x/)
 * [requests](https://pypi.org/project/requests/)
 
-### Prerequisites
+## Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
 * certifi==2021.5.30
@@ -102,7 +93,7 @@ This is an example of how to list things you need to use the software and how to
   $pip install -r requirements.txt
   ```
 
-### Installation
+## Installation
 
 1. Clone the repo
    ```sh
