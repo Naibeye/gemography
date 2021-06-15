@@ -104,9 +104,10 @@ This is an example of how to list things you need to use the software and how to
    $ flask run
    ```
 3. use url 
-4.  ```sh
+ ```sh
    http://localhost:5000/getlangue
    ```
+  
 <!-- CONTACT -->
 ## Contact
 
