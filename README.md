@@ -98,7 +98,7 @@ list libraries you need to use application and how to install them.
    ```
 3. use url 
  ```sh
-   http://localhost:5000/getlangue
+   http://localhost:5000/getlanguage
    ```
   
 <!-- CONTACT -->
