@@ -38,7 +38,6 @@
     <li>
       <a href="#project-description">Project description</a>
      </li>
-    <li><a href="#getting-started">Getting Started</a></li>
      <li><a href="#built-with">Built With</a></li>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -62,12 +61,6 @@ Fetching trending repositories simply translates to fetching the most starred re
 Develop a REST microservice that list the languages used by the 100 trending public repos on GitHub. For every language, you need to calculate the attributes below 👇:the number of repos using this language and the list of repos using the language
 
 
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 <!-- BUILT WITH-->
 ## Built With
 * [flask](https://flask.palletsprojects.com/en/2.0.x/)
@@ -120,16 +113,5 @@ Project Link: [https://github.com/Naibeye/gemography](https://github.com/Naibeye
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/Naibeye/gemography/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/Naibeye/gemography?style=plastic
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/djimnaibeye-sidoine-6a332a36/
-[product-screenshot]: images/screenshot.png
