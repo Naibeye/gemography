@@ -9,6 +9,8 @@ import requests
 @app.route('/getlanguage', methods=['GET'])
 def getlanguage():
     """
+    I took the challenge: backend coding challenge. The service exactly the list of 100 trending public repos on GitHub. 
+    I first filtered all public repositories while discarding private repositories as well as repositories so the language was not mentioned.
     Call this api
     Returns:
         list the languages used by the 100 trending public repos on GitHub. 
