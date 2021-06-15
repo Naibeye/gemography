@@ -15,8 +15,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -105,7 +103,10 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    $ flask run
    ```
-3. 
+3. use url 
+4.  ```sh
+   http://localhost:5000/getlangue
+   ```
 <!-- CONTACT -->
 ## Contact
 
