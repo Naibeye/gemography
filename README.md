@@ -68,7 +68,7 @@ Develop a REST microservice that list the languages used by the 100 trending pub
 <!-- PREREQUISITES -->
 ## Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+list libraries you need to use application and how to install them.
 * certifi==2021.5.30
 *  chardet==4.0.0
 *  click==8.0.1
