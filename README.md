@@ -90,7 +90,7 @@ list libraries you need to use application and how to install them.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/Naibeye/gemography.git
+   $ git clone https://github.com/Naibeye/gemography.git
    ```
 2. Run it
    ```sh
